@@ -2,4 +2,12 @@
 node_modules/
 dist/
 build/
-.env
+
+# Environment files
+ai-backend/.env
+
+# Backend secrets
+ai-backend/service_account.json
+
+# Logs
+*.log
