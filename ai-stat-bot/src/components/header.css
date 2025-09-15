@@ -1,0 +1,61 @@
+/* Full-width header background */
+.header {
+    width: 100%;
+    /* semi-transparent over gradient */
+    backdrop-filter: blur(12px);
+    /* glass effect */
+    top: 0;
+    z-index: 50;
+
+    /* This adds the "inside the page" effect */
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    border-radius: 0 0 20px 20px;
+}
+
+/* Centered container but not limited */
+.header-container {
+    width: 85%;
+    /* use most of the screen */
+    margin: 0 auto;
+    /* center horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navigation */
+.nav ul {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s, text-shadow 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.nav a:hover {
+    color: #422b51;
+    text-shadow: 0 0 12px #423450;
+}

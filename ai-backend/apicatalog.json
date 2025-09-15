@@ -1,0 +1,300 @@
+[
+    {
+        "name": "World Bank Indicators API",
+        "base_url": "https://api.worldbank.org/v2",
+        "metrics": [
+            "population",
+            "GDP",
+            "education",
+            "health",
+            "environment",
+            "poverty"
+        ],
+        "countries_supported": "all",
+        "type": "timeseries"
+    },
+    {
+        "name": "OECD API",
+        "base_url": "https://stats.oecd.org/sdmx-json/data",
+        "metrics": [
+            "employment_rate",
+            "unemployment",
+            "education",
+            "inflation",
+            "economic_indicators"
+        ],
+        "countries_supported": "OECD",
+        "type": "timeseries"
+    },
+    {
+        "name": "Bureau of Economic Analysis (BEA) API",
+        "base_url": "https://apps.bea.gov/api/data",
+        "metrics": [
+            "GDP",
+            "personal_income",
+            "outlays",
+            "national_income",
+            "product_accounts"
+        ],
+        "countries_supported": "USA",
+        "type": "timeseries"
+    },
+    {
+        "name": "Data Commons API",
+        "base_url": "https://api.datacommons.org",
+        "metrics": [
+            "population",
+            "education",
+            "health",
+            "economy",
+            "environment"
+        ],
+        "countries_supported": "all",
+        "type": "timeseries"
+    },
+    {
+        "name": "Bureau of Labor Statistics (BLS) API",
+        "base_url": "https://api.bls.gov/publicAPI/v2/timeseries/data",
+        "metrics": [
+            "employment",
+            "unemployment",
+            "wages",
+            "inflation"
+        ],
+        "countries_supported": "USA",
+        "type": "timeseries"
+    },
+    {
+        "name": "Macro Indicators API",
+        "base_url": "https://eodhd.com/api",
+        "metrics": [
+            "GDP",
+            "unemployment_rate",
+            "inflation_rate",
+            "national_income",
+            "price_indices"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    },
+    {
+        "name": "Census Bureau API",
+        "base_url": "https://api.census.gov/data",
+        "metrics": [
+            "population",
+            "housing",
+            "economic",
+            "geographic"
+        ],
+        "countries_supported": "USA",
+        "type": "timeseries"
+    },
+    {
+        "name": "Data.gov API",
+        "base_url": "https://api.data.gov",
+        "metrics": [
+            "various_datasets_from_federal_agencies"
+        ],
+        "countries_supported": "USA",
+        "type": "varied"
+    },
+    {
+        "name": "EM-DAT API",
+        "base_url": "https://public.emdat.be/api",
+        "metrics": [
+            "floods",
+            "earthquakes",
+            "storms",
+            "disasters"
+        ],
+        "countries_supported": "all",
+        "type": "event"
+    },
+    {
+        "name": "NASA Earth Observations (NEO) API",
+        "base_url": "https://neo.sci.gsfc.nasa.gov/api",
+        "metrics": [
+            "climate_data",
+            "temperature",
+            "precipitation",
+            "vegetation"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    },
+    {
+        "name": "OpenWeather API",
+        "base_url": "https://api.openweathermap.org/data/2.5",
+        "metrics": [
+            "weather",
+            "temperature",
+            "humidity",
+            "precipitation"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    },
+    {
+        "name": "UNESCO Institute for Statistics API",
+        "base_url": "http://uis.unesco.org/api",
+        "metrics": [
+            "education",
+            "literacy",
+            "science_technology"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    },
+    {
+        "name": "World Health Organization (WHO) API",
+        "base_url": "https://www.who.int/data/gho/info/api",
+        "metrics": [
+            "health_statistics",
+            "disease_prevalence",
+            "mortality_rates",
+            "health_systems"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    },
+    {
+        "name": "Quandl API",
+        "base_url": "https://www.quandl.com/api/v3",
+        "metrics": [
+            "financial_data",
+            "economic_data",
+            "alternative_data"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    },
+    {
+        "name": "Alpha Vantage API",
+        "base_url": "https://www.alphavantage.co/query",
+        "metrics": [
+            "stock_market_data",
+            "real_time_prices",
+            "historical_prices"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    },
+    {
+        "name": "NASA API",
+        "base_url": "https://api.nasa.gov",
+        "metrics": [
+            "space_data",
+            "satellite_imagery",
+            "astronomical_data"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    },
+    {
+        "name": "Open Food Facts API",
+        "base_url": "https://world.openfoodfacts.org/data",
+        "metrics": [
+            "nutritional_information",
+            "ingredients",
+            "product_data"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    },
+    {
+        "name": "Data USA API",
+        "base_url": "https://datausa.io/api",
+        "metrics": [
+            "US_demographics",
+            "economy",
+            "education",
+            "health"
+        ],
+        "countries_supported": "USA",
+        "type": "timeseries"
+    },
+    {
+        "name": "Pordata API",
+        "base_url": "https://www.pordata.pt/API",
+        "metrics": [
+            "population",
+            "education",
+            "health",
+            "economy"
+        ],
+        "countries_supported": "Portugal, Europe",
+        "type": "timeseries"
+    },
+    {
+        "name": "International Labour Organization (ILO) API",
+        "base_url": "https://ilostat.ilo.org/data/",
+        "metrics": [
+            "employment",
+            "unemployment",
+            "wages",
+            "labor_force_participation"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    },
+    {
+        "name": "Total Economy Database",
+        "base_url": "https://www.conference-board.org/data/economydatabase/",
+        "metrics": [
+            "GDP",
+            "population",
+            "employment",
+            "hours",
+            "labor_quality",
+            "capital_services",
+            "labor_productivity",
+            "total_factor_productivity"
+        ],
+        "countries_supported": "123",
+        "type": "timeseries"
+    },
+    {
+        "name": "UNdata API",
+        "base_url": "https://data.un.org/",
+        "metrics": [
+            "population",
+            "education",
+            "employment",
+            "energy",
+            "environment",
+            "food_and_agriculture",
+            "health",
+            "human_development",
+            "industry",
+            "ICT",
+            "national_accounts",
+            "refugees",
+            "trade",
+            "tourism"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    },
+    {
+        "name": "United Nations Population Division Data API",
+        "base_url": "https://population.un.org/dataportal/",
+        "metrics": [
+            "family_planning_estimates",
+            "projections"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    },
+    {
+        "name": "OpenEpi API",
+        "base_url": "http://www.openepi.com/",
+        "metrics": [
+            "epidemiological_data",
+            "biostatistics",
+            "public_health",
+            "medicine"
+        ],
+        "countries_supported": "global",
+        "type": "timeseries"
+    }
+]

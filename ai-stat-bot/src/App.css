@@ -1,0 +1,10 @@
+/* Full page gradient background */
+html,
+body #root {
+  margin: 0;
+  align-items: center;
+  /* vertical center */
+  justify-content: center;
+  background: linear-gradient(0deg, #15003f 20%, #270173, #472ba0, #9074ff 57.99999999999999%, #ffd7cf 70%, #fff 95%);
+  font-family: 'Monospace', sans-serif;
+}
